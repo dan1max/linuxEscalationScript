@@ -52,3 +52,7 @@ despues en la nueva terminal root:
 una vez de vuelta en la terminal normal:
 
 `su - user`
+
+#### Más
+
+[GTFObins](https://gtfobins.org/)
