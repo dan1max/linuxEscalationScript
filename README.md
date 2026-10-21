@@ -1,4 +1,4 @@
-# linuxEscalationUSAL
+# linuxEscalationScript
 
 ## DISCLAIMER
 
