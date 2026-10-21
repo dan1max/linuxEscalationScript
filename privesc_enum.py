@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Linux Privilege Escalation Enumerator
-Propietary Software. ONLY USE IN YOUR OWN DEVICES.
+ONLY EXCLUSIVELY IN YOUR OWN DEVICES & SOFTWARE.
 I DO NOT CLAIM RESPONSIBILITY OF MISUSE.
+MIT License applies.
 """
 
 import os
