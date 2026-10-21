@@ -39,7 +39,7 @@ python3 privesc_enum.py 2>/dev/null
 - Capacidades como `cap_setuid` asignadas a programas como Python o Vim pueden permitir obtener privilegios elevados.
 
 
-### Caso especifico con aggetty
+### Caso especifico con agetty
 
 En terminal, ejecutar:
 
